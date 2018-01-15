@@ -23,7 +23,7 @@
 		<distributionManagement>
 			<repository>
 				<id>ec2-54-210-1-140.compute-1.amazonaws.com:8080/manager</id>
-				<url>/home/ec2-user/.m2/</url>
+				<url>/home/ec2-user/.jenkins/workspace/HelloWorld/target/site</url>
 			</repository>	
 		</distributionManagement>
 
@@ -31,9 +31,9 @@
 		<finalName>HelloWorld</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.0.2</version>
+				<version>3.7.0</version>
 				<configuration>
 					<url>http://ec2-54-210-1-140.compute-1.amazonaws.com:8080/manager/html</url>
 					<path>/HelloWorld</path>
