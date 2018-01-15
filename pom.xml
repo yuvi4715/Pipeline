@@ -22,8 +22,8 @@
 	</dependencies>
 		<distributionManagement>
 			<repository>
-				<id>awsRepo</id>
-				<url>http://ec2-54-210-1-140.compute-1.amazonaws.com:8080/jenkins/job/HelloWorld/ws/src/main/webapp/</url>
+				<id>deploymentRepo</id>
+				<url>http://ec2-54-210-1-140.compute-1.amazonaws.com:8080/</url>
 			</repository>	
 		</distributionManagement>
 
@@ -36,6 +36,7 @@
 				<version>3.7.0</version>
 				<configuration>
 					<url>http://ec2-54-210-1-140.compute-1.amazonaws.com:8080/manager/html</url>
+					<server>deploymentRepo</server>
 					<path>/HelloWorld</path>
 				</configuration>
 			</plugin>
