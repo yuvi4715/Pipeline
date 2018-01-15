@@ -23,7 +23,7 @@
 		<distributionManagement>
 			<repository>
 				<id>awsRepo</id>
-				<url>/home/ec2-user/.jenkins/workspace</url>
+				<url>http://ec2-54-210-1-140.compute-1.amazonaws.com:8080/jenkins/job/HelloWorld/ws/src/main/webapp/</url>
 			</repository>	
 		</distributionManagement>
 
