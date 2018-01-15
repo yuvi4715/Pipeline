@@ -20,13 +20,14 @@
 			<version>4.0.0</version>
 		</dependency>
 	</dependencies>
-	<build>
-		<distributionManager>
+		<distributionManagement>
 			<repository>
 				<id>ec2-54-210-1-140.compute-1.amazonaws.com:8080/manager</id>
 				<url>/home/ec2-user/.m2/</url>
 			</repository>	
-		</distributionManager>
+		</distributionManagement>
+
+	<build>
 		<finalName>HelloWorld</finalName>
 		<plugins>
 			<plugin>
