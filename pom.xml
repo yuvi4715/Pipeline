@@ -22,8 +22,8 @@
 	</dependencies>
 		<distributionManagement>
 			<repository>
-				<id>ec2-54-210-1-140.compute-1.amazonaws.com:8080/manager</id>
-				<url>/home/ec2-user/.jenkins/workspace/HelloWorld/target/site</url>
+				<id>awsRepo</id>
+				<url>/home/ec2-user/.jenkins/workspace</url>
 			</repository>	
 		</distributionManagement>
 
